@@ -14,7 +14,16 @@ const Contact = () => {
         <>
             <HeaderNav />
             <section className="hero">
-                <h1>Contact Page</h1>
+               <h2>
+               <ul>
+                    <li>
+                        contact me : 123456789
+                    </li>
+                    <li>
+                        Email : Pk35@gmail.com
+                    </li>
+                    
+                </ul></h2> 
                 <button onClick={()=>backToHome()}>Back to home</button>
                 <br />
                 <br />

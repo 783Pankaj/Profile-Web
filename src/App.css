@@ -58,6 +58,12 @@ button{
   border: none;
   background: none;
   font-size: 20px;
+  color:white;
+  background-color: black;
+  border-radius: 5px;
+  border-color:  solid blue;
+ 
+ 
 }
 .mobile-bar{
   display: none;
@@ -94,4 +100,28 @@ button{
     .hero h1{
       font-size: 50px;
     }
+}
+.img{
+  width: 1200px;
+  height: 600px;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.card{
+  margin-top: 3%;
+  /* display: flex; */
+  /* display: inline; */
+  display:inline-table;
+  margin-inline-start: 15px;
+  cursor: pointer;
+  
+}
+.card:hover{
+  background-color: rgb(186, 213, 234);
+}
+.video{
+ margin-top: 15px;
+ margin-left: 170px;
+ width: 1500px;
+ height:500px;
 }

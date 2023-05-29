@@ -5,6 +5,8 @@ import About from './PageComponents/About';
 import Contact from './PageComponents/Contact';
 import Gallary from './PageComponents/Gallary';
 import Error from './PageComponents/Error';
+import Footer from './FooterComponent/Footer';
+
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
             <Route path='/gallary' element={<Gallary />} />
             <Route path='*' element={<Error />} />
           </Routes>
+          <div>
+             <Footer />
+        </div>
     </BrowserRouter>
   );
 }

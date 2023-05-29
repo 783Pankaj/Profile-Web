@@ -3,13 +3,14 @@ import { NavLink } from "react-router-dom";
 import {FaBars} from "react-icons/fa"
 import {ImCross} from "react-icons/im"
 
+
 const HeaderNav = () => {
 
     const [bar, setBar] = useState(false)
     return (
         <>
             <header className="head">
-                <a className="logo" href="#">Logo</a>
+                <a className="logo" href="/">Logo</a>
                 <nav className="navbar">
                     <ul className= {bar ? "nav-links-mobile" : "nav-links" } onClick={()=>setBar(false)}>
                         <li>
@@ -29,9 +30,13 @@ const HeaderNav = () => {
                         {bar ? <ImCross/> : <FaBars />}
                         
                     </button>
+                    
                 </nav>
+                
             </header>
+           
         </>
+        
     );
 }
 export default HeaderNav;
