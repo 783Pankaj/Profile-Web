@@ -1,7 +1,6 @@
-
-
 .active{
-  color: blue;
+  color: rgb(251, 251, 254);
+  background-color: rgb(161, 174, 241);
 
 }
 
@@ -18,7 +17,7 @@ li{
 .navbar{
   height: 5vh;
   line-height: 10vh;
-  box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  box-shadow: rgba(187, 187, 205, 0.23) 0 30px 30px -20px;
   display: flex;
   justify-content:flex-end;
   align-items: center;
@@ -62,8 +61,6 @@ button{
   background-color: black;
   border-radius: 5px;
   border-color:  solid blue;
- 
- 
 }
 .mobile-bar{
   display: none;
@@ -113,15 +110,23 @@ button{
   /* display: inline; */
   display:inline-table;
   margin-inline-start: 15px;
-  cursor: pointer;
-  
+  cursor: pointer;  
 }
 .card:hover{
   background-color: rgb(186, 213, 234);
 }
 .video{
- margin-top: 15px;
- margin-left: 170px;
- width: 1500px;
- height:500px;
+ margin-top: 1px;
+ margin-left: 1px;
+ width: 100%;
+
+position: fixed;
+z-index: -1;
+
+}
+
+
+.imgList{
+  margin-left: 50px;
+  margin-right: 20px;
 }
